@@ -1,0 +1,66 @@
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --main-bckgrnd-color: #e5e5e5;
+  --secondary-bckgrnd-color: #f5f4fa;
+  --header-bckgrnd-color: #ffffff;
+  --footer-bckgrnd-color: #2f303a;
+  --adress-color: rgba(255, 255, 255, 0, 6);
+  --header-logo-color: #000000;
+}
+
+/* Color palette */
+/* main white color #E5E5E5
+header background #ffffff
+our team background #F5F4FA
+title color #212121
+text color #757575
+aсcent color #2196F3
+adress color rgba (255, 255, 255, 0,6)
+footer background #2F303A; */
+
+/* Global classes */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+body {
+  color: var(--main-text-color);
+}
+
+/* Header classes */
+.page-header {
+  background-color: var(--header-bckgrnd-color);
+}
+.logo {
+  color: var(--header-logo-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.logo-style {
+  color: var(--accent-color);
+}
+.nav-link {
+  color: var(--title-text-color);
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--accent-color);
+}
+.contact {
+  color: var(--main-text-color);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
