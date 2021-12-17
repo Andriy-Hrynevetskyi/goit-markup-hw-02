@@ -13,11 +13,11 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="page-header">
+    <header class="header">
+      <a href="/" lang="en" class="logo">Web<span class="header-logo">Studio</span></a>
       <nav class="site-nav">
-        <a href="/" lang="en" class="logo link"><span class="logo-style">Web</span>Studio</a>
         <ul class="list">
-          <li><a class="link nav-link" href="./index.html">Студия</a></li>
+          <li><a class="link nav-link current" href="./index.html">Студия</a></li>
           <li><a class="link nav-link" href="./portfolio.html">Портфолио</a></li>
           <li><a class="link nav-link" href="">Контакты</a></li>
         </ul>
@@ -35,38 +35,47 @@
       </section>
       <!-- Studio features -->
       <section class="features">
-        <h2 class="title hidden">Особенности</h2>
+        <h2 class="title visually-hidden">Особенности</h2>
         <ul class="list">
           <li>
             <h3 class="sub-title">Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <p class="text">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
           </li>
           <li>
             <h3 class="sub-title">Пунктуальность</h3>
-            <p>
+            <p class="text">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
           <li>
             <h3 class="sub-title">Планирование</h3>
-            <p>
+            <p class="text">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
           <li>
             <h3 class="sub-title">Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <p class="text">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
           </li>
         </ul>
       </section>
-      <!-- What we do -->
+      <!-- Doing something important))) -->
       <section>
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
             <a href=""
-              ><img src="./images/picture-1.jpg" alt="разработчик пишет код" width="370"
-            /></a>
+              ><img
+                src="./images/picture-1.jpg"
+                alt="разработчик пишет код"
+                width="370"
+                height="294"
+              />
+            </a>
           </li>
           <li>
             <a href=""
@@ -74,7 +83,9 @@
                 src="./images/picture-2.jpg"
                 alt="разработчик создает крос-платформенное приложение"
                 width="370"
-            /></a>
+                height="294"
+              />
+            </a>
           </li>
           <li>
             <a href=""
@@ -82,6 +93,7 @@
                 src="./images/picture-3.jpg"
                 alt="разработчик создает графический дизайн"
                 width="370"
+                height="294"
             /></a>
           </li>
         </ul>
@@ -115,9 +127,7 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <a class="link logo" href="/"
-        ><span class="logo-style">Web</span><span class="footer-logo">Studio</span></a
-      >
+      <a href="/" lang="en" class="logo link">Web<span class="footer-logo">Studio</span></a>
       <address>
         <a
           class="link address"
@@ -130,10 +140,10 @@
       </address>
       <ul class="list">
         <li>
-          <a class="contact-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="footer-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a class="contact-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="footer-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </footer>
