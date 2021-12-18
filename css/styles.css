@@ -5,13 +5,14 @@
   --logo-secondary-color: #000000;
   --third-logo-color: #ffffff;
   --header-bckgrnd-color: #ffffff;
-  --primary-bckgrnd-color: #e5e5e5;
+  --primary-bckgrnd-color: #ffffff;
   --secondary-bckgrnd-color: #f5f4fa;
   --accent-color: #2196f3;
   --main-title-color: #ffffff;
   --secondary-title-color: #212121;
   --btn-color: #ffffff;
   --btn-bckgrnd-color: #2196f3;
+  --btn-hover-focus-bckgrnd: #188ce8;
   --scnd-btn-hover-focus-color: #ffffff;
   --scnd-bckgrnd-btn-hover-focus-color: #2196f3;
   --secondary-btn-color: #212121;
@@ -110,6 +111,11 @@ body {
   background-color: var(--btn-bckgrnd-color);
 }
 
+.button:focus,
+.button:hover {
+  background-color: var(--btn-hover-focus-bckgrnd);
+}
+
 /* Studio features */
 
 .features {
@@ -127,12 +133,14 @@ body {
 
 .sub-title {
   font-weight: 700;
+  font-size: inherit;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-title-color);
 }
 .text {
   line-height: 1.71;
+  font-size: inherit;
 }
 /* --- Doing something important))) --- */
 
@@ -144,6 +152,7 @@ body {
   letter-spacing: 0.03em;
 }
 .name {
+  font-size: inherit;
   font-weight: 500;
   color: var(--secondary-title-color);
 }
